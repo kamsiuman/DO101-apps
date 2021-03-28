@@ -12,9 +12,9 @@ app.get('/', function (req, res) {
 
 });
 
-app.get('/dkwan', function (req, res) {
+app.get('/markwong', function (req, res) {
 
-  response = 'This is version 3 of the app to dkwan.' + '\n';
+  response = 'This is version 4565466 of the app to markwong.' + '\n';
 
   //send the response to the client
   res.send(response);
